@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>v0v.cc - URL Shortener</title>
+</head>
+<body>
+<h1>v0v.cc: a URL Shortener Service</h1>
+<p>This is a URL shortener service written in Go. It's for my personal use and not open to public.</p>
+<p>For source code, see <a href="https://github.com/yibaimeng/shortener" target="_blank" rel="noopener noreferrer">here</a>
+<h2>API</h2>
+<p>To shorten a URL, send a POST request with it as the <code>url</code> field in the body. For example, to shorten <em>https://google.com</em>, run:</p>
+<code>
+<pre>
+$ curl -d "url=google.com&auth=XXX" v0v.cc
+</pre>
+</code>
+where the output is
+<samp>
+v0v.cc/BST
+</samp>
+<p><code>auth</code> is the authentication code needed.</p>
+</body> 
+</html>

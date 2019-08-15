@@ -1,0 +1,7 @@
+package main
+
+const domain = "your domain here" 
+const authkey = "your key here"
+const cert_path = "fullchain.pem"
+const privkey_path = "privkey.pem"
+var storage_cfg Storage_config = "dat"
